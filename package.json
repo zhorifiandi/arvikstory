@@ -11,7 +11,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "prettier": "prettier --write --ignore-unknown ."
   },
   "dependencies": {
     "@chakra-ui/gatsby-plugin": "^1.0.1",
@@ -31,6 +32,10 @@
     "gatsby-transformer-sharp": "^3.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
   }
 }
